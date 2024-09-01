@@ -74,6 +74,6 @@ exports.deleteOneTodo = (req, res) => {
 		return res.status(404).send("No such item in To Do List");
 	} else {
 		const deletedItem = toDoList.splice(todoItem, 1);
-		res.status(200).send(deletedItem);
+		res.status(204).send(deletedItem);
 	}
 };
