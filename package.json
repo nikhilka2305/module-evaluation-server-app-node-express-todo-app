@@ -1,0 +1,17 @@
+{
+	"name": "module-evaluation-server-app-node-express-todo-app",
+	"version": "1.0.0",
+	"main": "src/server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.19.2",
+		"uuidv4": "^6.2.13"
+	}
+}
